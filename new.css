@@ -1,0 +1,67 @@
+body {  
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:url(code_learning_bg.jpg) ;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    }
+h1 { 
+    color: #eb0303; 
+}
+.sidebar { 
+    list-style: none;
+    padding: 0;
+}
+.sidebar li { margin: 10px 0;
+
+}
+.s-elements {
+    text-decoration: none;
+    color: #084f9b;
+    font-size: 18px;
+    border: none;
+    border-radius: 1em;
+    padding: 3px;
+    margin: 10px;
+    background-color: bisque;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.sidebar a:hover { color: #c56e0b; }
+.container{
+    padding: 0;
+    height: fit-content;
+    border: #ad1b1b solid 1px;
+    background-image: linear-gradient(blue, red, yellow);
+    border-radius: 1em;
+    width: 325px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    z-index: 0px;
+    position:absolute;
+    
+}
+.main-body{
+    flex-grow: 1;
+    height: auto;
+    border: solid#be2424 2px;
+    border-radius: 1em;
+    flex: 1;
+    margin-left: 350px;
+    min-height: 100%;
+    background-image: linear-gradient(rgb(136, 38, 55), rgb(0, 102, 128), rgb(136, 91, 7));
+}
+.container-wrapper{
+    display: flex;
+    align-items: stretch;
+}
+li{
+    text-decoration: none;
+
+}
